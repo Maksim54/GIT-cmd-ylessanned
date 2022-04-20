@@ -1,6 +1,6 @@
 /*Commit 1-2.(min 2) sql requests*/
 /*----------1 request----------*/
-SELECT COUNT(course_id) dept_name/*ei mingit koma*/
+SELECT COUNT(course_id) as Total, dept_name  /*no cloumn name, no comma*/
   FROM course
   GROUP BY dept_name;
 /*----------2 request----------*/
