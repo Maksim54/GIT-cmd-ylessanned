@@ -1,12 +1,12 @@
 /*Commit 1-2.(min 2) sql requests*/
 /*----------1 request----------*/
-SELECT COUNT(course_id) dept_name/*ei mingit koma*/
+SELECT COUNT(course_id) as Total, dept_name  /*comma, column name*/
   FROM course
   GROUP BY dept_name;
 /*----------2 request----------*/
 SELECT DISTINCT course_id
   FROM section
-  WHERE semester = ‘Fall’ AND year= 2009 AND course_id IN (
+  WHERE semester = ‘Fall’ AND year= 2009 AND course_id IN (      
     SELECT course_id
     FROM section
     WHERE semester = ‘Spring’ AND year= 2010;
