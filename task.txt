@@ -16,7 +16,7 @@ SELECT DISTINCT course_id
   <head>
     <title>Body bgcolor Attribute example</title>
   </head>
-  <body bgcolor="#afafa">
+  <body bgcolor=#afafa>
     <h1>This webpage has colored background.</h1>
   </body>
 </html>
