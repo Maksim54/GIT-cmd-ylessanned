@@ -9,7 +9,7 @@ SELECT DISTINCT course_id
   WHERE semester = ‘Fall’ AND year= 2009 AND course_id IN (
     SELECT course_id
     FROM section
-    WHERE semester = ‘Spring’ AND year= 2010;
+    WHERE semester = ‘Spring’ AND year= 2010);//*ei ole sulg*/
 /*Commit 3-4. Find html code errors*/
 /*----------1 code----------*/
 <html>
