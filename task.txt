@@ -12,6 +12,7 @@ SELECT DISTINCT course_id
     WHERE semester = 'Spring' AND year= 2010;
 /*Commit 3-4. Find html code errors*/
 /*----------1 code----------*/
+<!DOCTYPE html>     /*this line*/
 <html>
   <head>
     <title>Body bgcolor Attribute example</title>
